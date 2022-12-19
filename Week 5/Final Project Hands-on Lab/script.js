@@ -14,7 +14,7 @@ function compute()
         document.getElementById('principal').focus();
         return false;
     }
-    var rate = document.getElementById("rate").value;
+    var rate = document.getElementById("interestRate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
