@@ -1,5 +1,27 @@
 body {background-color:black;font-family:arial;color:white}
 h1{color:grey;font-family:verdana}
+label{
+    width: 100px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.user_input{
+    display:flex;
+    
+    align-items: center;
+}
+/* #interest{
+    display: inline-block;
+} */
+#result, #calculate{
+    display: inline-block;
+    flex: auto;
+    margin-left: 25px;
+}
+#slider{
+    display:flex;
+    align-items: center;
+}
 .maindiv {
     background-color: white;
     color: black;
@@ -12,6 +34,7 @@ h1{color:grey;font-family:verdana}
     padding: 20px;
     margin-left: 25px;
 }
+
 .highlight {
     background-color: yellow;
 }
