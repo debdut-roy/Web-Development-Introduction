@@ -1,14 +1,22 @@
 body {background-color:black;font-family:arial;color:white}
 h1{color:grey;font-family:verdana}
 label{
-    width: 100px;
+    width: 120px;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 10px;
+}
+footer{
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 0px 0px 25px 25px;
 }
 .user_input{
     display:flex;
-    
     align-items: center;
+    text-align: left;
+    margin-bottom: 5px;
 }
 /* #interest{
     display: inline-block;
@@ -16,18 +24,18 @@ label{
 #result, #calculate{
     display: inline-block;
     flex: auto;
-    margin-left: 25px;
+    margin-left: 55px;
 }
 #slider{
     display:flex;
     align-items: center;
 }
-.maindiv {
+.maindiv{
     background-color: white;
     color: black;
     width: 500px;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
 }
 .center{
     width: 400px;
